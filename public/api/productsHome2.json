@@ -1,0 +1,44 @@
+{
+    "products":{
+         "product1":{
+             "id": 1,
+             "image": { 
+                 "src": "/images/Pexels-Photo.jpeg",
+                 "name": "House A",
+                 "alignment": "center"
+             }
+         },
+         "product2":{
+             "id": 2,
+             "image": { 
+                 "src": "/images/Pexels-Photo.jpeg",
+                 "name": "House B",
+                 "alignment": "center"
+             }
+         },
+         "product3":{
+             "id": 3,
+             "image": { 
+                 "src": "/images/Pexels-Photo.jpeg",
+                 "name": "House C",
+                 "alignment": "center"
+             }
+         },
+         "product4":{
+             "id": 4,
+             "image": { 
+                 "src": "/images/Pexels-Photo.jpeg",
+                 "name": "House D",
+                 "alignment": "center"
+             }
+         },
+         "product5":{
+             "id": 5,
+             "image": { 
+                 "src": "/images/Pexels-Photo.jpeg",
+                 "name": "House E",
+                 "alignment": "center"
+             }
+         }
+     }
+ }

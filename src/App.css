@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background: #f0f8ff;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* max-height: 7vh; */
+  background: linear-gradient(cyan,blue);
+  color:aliceblue;
+  /* position: sticky; */
+}
+
+.nav-links{
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font: bold;
+  /* color: aliceblue; */
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.header-section{
+  /* border: 1px solid blue; */
+  min-width: 90vw;
+  margin:0rem 1rem;
+  min-height: 70vh;
+  /* background: green; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+}
+.header-section img{
+position: absolute;
+min-width: 100%;
+/* min-height: 100%; */
+z-index: -3;
+background-size: cover;
+}
+
+.header-section h3{
+  position: absolute;
+  bottom: 1.5rem;
+  /* right: 0.5rem; */
+  color: #eef;
+  align-items: center;
+  display: flex;
+}
+
+.mail_id{
+  position: absolute;
+  bottom: 0.5rem;
+  color: #fff;
+  font-size:2rem;
+  font-weight: bolder;
+}
+
+.header-section span{
+  font-size: 1.8rem;
+  letter-spacing: .2rem;
+  font-weight: bolder;
+}
+
+.banner-section{
+  /* border: 1px solid blue; */
+  width: 35vw;
+  margin:0rem;
+  background:#eef;
+  padding: 1rem;
+  /* opacity: 0.7; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 40px cyan;
+}
+
+.banner-section span{
+  color: darkcyan
+}
+
+.banner-section strong{
+  color: purple;
+  margin-bottom: 1rem;
+}
+
+.shop-now-btn{
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  /* background: -moz-linear-gradient(red,blue,0.6); */
+  outline-style: none;
+  background: purple;
+  color: #eef;
+}
+.shop-now-btn:hover{
+  background: blue;
+  opacity: 0.5;
+  color: white;
+}

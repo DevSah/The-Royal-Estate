@@ -1,0 +1,67 @@
+{
+   "products":[
+        {
+            "id": 1,
+            "image": "/images/Beautiful-House1.jpg",
+            "name": "House A",
+            "price": "1,200,000",
+            "productDetails":{
+                "Name":"Product Detail A",
+                "location":"Location A"
+            }
+        },
+        {
+            "id": 2,
+            "image": "/images/Beautiful-House2.jpg",
+            "name": "House B",
+            "price":"1,200,000",
+            "productDetails":{
+                "Name":"Product Detail B",
+                "location":"Location B"
+
+            }
+            
+        },
+        {
+            "id": 3,
+            "image": "/images/Beautiful-Property1.jpg",
+            "name": "House C",
+            "price":"1,200,000",
+            "productDetails":{
+                "Name":"Product Detail C",
+                "location":"Location D",
+                "descriptions":{
+                    "shortDescription":"Short Description",
+                    "fullDescription":"This is a full description of the product."
+                }
+                
+
+            }
+           
+        },
+        {
+            "id": 4,
+            "image": "/images/Beautiful-Property2.jpeg",
+            "name": "House D",
+            "price":"1,200,000",
+            "productDetails":{
+                "Name":"Product Detail D",
+                "location":"Location E"
+
+            }
+            
+        },
+        {
+            "id": 5,
+            "image": "/images/Pexels-Photo.jpeg",
+            "name": "House E",
+            "price":"1,200,000",
+            "productDetails":{
+                "Name":"Product Detail E",
+                "location":"Location E"
+
+            }
+           
+        }
+   ]
+}
